@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import io from "socket.io-client";
 
-const socket = io("https://interview-server-lovat.vercel.app/");
+const socket = io("https://word-game-server-br59.onrender.com/");
 
 export default function App() {
   const [player, setPlayer] = useState(null);
